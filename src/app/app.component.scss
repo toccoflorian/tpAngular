@@ -1,0 +1,23 @@
+
+main{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .content{
+    min-height: 90vh;
+
+    .columnCardContainer{
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  footer{
+    position: relative;
+    bottom: 0;
+  }
+}

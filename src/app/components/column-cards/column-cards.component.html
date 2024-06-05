@@ -1,0 +1,8 @@
+
+<div>
+    <p>{{columnCard.title}}</p>
+
+    @for(card of columnCard.cards; track card.id){
+        <app-card [card]="card"></app-card>
+    }
+</div>
